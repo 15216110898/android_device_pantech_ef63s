@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/pantech/ef63s/ef63s-vendor.mk)
+$(call inherit-product-if-exists, vendor/pantech/ef63-common/ef63-common-vendor.mk)
 
 # Inherit from ef63-common
 $(call inherit-product, device/pantech/ef63-common/ef63-common.mk)

@@ -21,4 +21,4 @@
 TARGET_KERNEL_CONFIG := ef63s_defconfig
 
 # inherit from the proprietary version
--include vendor/pantech/ef63s/BoardConfigVendor.mk
+-include vendor/pantech/ef63-common/BoardConfigVendor.mk
